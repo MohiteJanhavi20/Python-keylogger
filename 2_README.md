@@ -1,7 +1,7 @@
-## Python Keylogger
+# Python Keylogger
 This Python script uses the pynput library's Listener to capture keyboard press events and log them into a file named log.txt. It performs several transformations to make the log more readable: it removes quotes from single characters, converts Key.space into a real space, ignores right-shift presses, converts Key.enter into a newline, and records a readable message when the Backspace key is pressed.
 
-# Features / Capabilities
+## Features / Capabilities
 
 List what your code does in a professional way:
 
@@ -17,7 +17,7 @@ Records a readable token for Backspace ( Backspace pressed).
 
 Appends all logged data into log.txt.
 
-# Sample Output
+## Sample Output
 
 If the user types:
 Hello
